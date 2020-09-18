@@ -1,0 +1,2 @@
+C:\Users\TarmaDSho\Desktop\Unreal Projects\04_Tank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h
+C:\Users\TarmaDSho\Desktop\Unreal Projects\04_Tank\BattleTank\Source\BattleTank\BattleTank.h
