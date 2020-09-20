@@ -10,3 +10,5 @@
 *.Vc.db
 *.suo
 *.VC.opendb
+*.umap
+*.uasset
