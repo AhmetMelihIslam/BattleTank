@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleTank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4E2F2008-9F93-4B77-8041-F412CA06F303}</UniqueIdentifier>
+      <UniqueIdentifier>{5CBACEEF-034D-4CD1-9784-44377BD6AE75}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A931C7AB-8840-4D6B-91AA-E8E5BCD9C1FC}</UniqueIdentifier>
+      <UniqueIdentifier>{B2962CAF-9D4F-4162-BC0E-E51C5BB83459}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BattleTank">
-      <UniqueIdentifier>{D2512FF2-6216-4690-8114-A1677F113E06}</UniqueIdentifier>
+      <UniqueIdentifier>{322F681B-A651-4E3F-BCF7-C3093F6F0C2E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank\BattleTank.Build.cs">
       <Filter>Source\BattleTank</Filter>

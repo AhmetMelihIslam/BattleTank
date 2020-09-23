@@ -1,2 +1,2 @@
-C:\Users\TarmaDSho\Desktop\04-TankBattle\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h
-C:\Users\TarmaDSho\Desktop\04-TankBattle\BattleTank\Source\BattleTank\BattleTank.h
+C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h
+C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Source\BattleTank\BattleTank.h

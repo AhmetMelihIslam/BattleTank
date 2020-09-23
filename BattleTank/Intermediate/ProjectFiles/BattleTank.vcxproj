@@ -313,8 +313,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\TarmaDSho\Desktop\04-TankBattle\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04-TankBattle\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -395,8 +395,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\TarmaDSho\Desktop\04-TankBattle\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04-TankBattle\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -460,8 +460,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\TarmaDSho\Desktop\04-TankBattle\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04-TankBattle\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
