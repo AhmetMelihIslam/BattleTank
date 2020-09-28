@@ -32,8 +32,8 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
-/I C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Source
+/I C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
+/I C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\BattleTankGameModeBase.gen.cpp"
-/FI"C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h"
-/Fo"C:\Users\TarmaDSho\Desktop\04_BattleTank-master\04_BattleTank-master\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.gen.cpp.obj"
+/FI"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\BattleTankGameModeBase.gen.cpp"
+/FI"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h"
+/Fo"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4
