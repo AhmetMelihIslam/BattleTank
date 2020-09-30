@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\TarmaDSho\\Desktop\\BattleTank\\BattleTank\\Source\\BattleTank\\BattleTank.Build.cs",
-		"C:\\Users\\TarmaDSho\\Desktop\\BattleTank\\BattleTank\\Source\\BattleTank.Target.cs",
-		"C:\\Users\\TarmaDSho\\Desktop\\BattleTank\\BattleTank\\Source\\BattleTankEditor.Target.cs"
+		"C:\\Users\\TarmaDSho\\Desktop\\04_BattleTank\\BattleTank\\Source\\BattleTank\\BattleTank.Build.cs",
+		"C:\\Users\\TarmaDSho\\Desktop\\04_BattleTank\\BattleTank\\Source\\BattleTank.Target.cs",
+		"C:\\Users\\TarmaDSho\\Desktop\\04_BattleTank\\BattleTank\\Source\\BattleTankEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }
