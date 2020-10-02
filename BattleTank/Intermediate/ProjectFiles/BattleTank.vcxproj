@@ -313,8 +313,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\TarmaDSho\Desktop\04_BattleTank\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04_BattleTank\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -395,8 +395,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\TarmaDSho\Desktop\04_BattleTank\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04_BattleTank\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -460,8 +460,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\TarmaDSho\Desktop\04_BattleTank\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\04_BattleTank\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Binaries\HoloLens\BattleTank.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -498,11 +498,16 @@
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h;$(SolutionDir)Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
     </ClCompile>
+    <ClCompile Include="..\..\Source\BattleTank\Private\TankAIController.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h;$(SolutionDir)Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BattleTank\Private\TankPlayerController.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h;$(SolutionDir)Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="..\..\Source\BattleTank\Public\Tank.h"/>
+    <ClInclude Include="..\..\Source\BattleTank\Public\TankAIController.h"/>
     <ClInclude Include="..\..\Source\BattleTank\Public\TankPlayerController.h"/>
   </ItemGroup>
   <PropertyGroup>
