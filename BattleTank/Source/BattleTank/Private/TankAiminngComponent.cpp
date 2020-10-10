@@ -27,9 +27,13 @@ void UTankAiminngComponent::AimAt(FVector HitLocation,float LaunchSpeed)
 		StartLocation,
 		HitLocation,
 		LaunchSpeed,
-		ESuggestProjVelocityTraceOption::DoNotTrace
+		false,
+		0,
+		0
+		,ESuggestProjVelocityTraceOption::DoNotTrace // coment this to produce bug
 	);
-	if(!bHaveAimSolution)
+
+	if(bHaveAimSolution)
 	{
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
 		MoveBarrelTowards(AimDirection);
@@ -51,7 +55,7 @@ void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirection)
 	auto AimAsRotator = AimDirection.Rotation();
 	auto DeltaRotator = AimAsRotator - BarrelRotator;
 	
-	Barrel->Elevate(5); // TODO remove magic number
+	Barrel->Elevate(DeltaRotator.Pitch); 
 }
 
 void UTankAiminngComponent::SetBarrelReference(UTankBarrel* BarrelToSet)
