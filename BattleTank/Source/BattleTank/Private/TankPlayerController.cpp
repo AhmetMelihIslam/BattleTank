@@ -34,13 +34,11 @@ void ATankPlayerController::AimTowardsCrosshair()
 {
 	if (!GetControlledTank()) { return; }
 
-
 	FVector HitLocation; // Out parameter
 	if (GetSightRayHitLocation(HitLocation) ) // Has "side-effect", is going to line trace
 	{
 		GetControlledTank()->AimAt(HitLocation);
 	}
-
 }
 
 // Get world location of linetrace through crosshair, true if hits landscape
@@ -58,7 +56,6 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& OutHitLocation) cons
 		// Line-trace along that LookDirection, and see what we hit (up to max range)
 		GetLookVectorHitLocation(LookDirection, OutHitLocation) ;
 	}
-
 	return true;
 }
 
@@ -91,5 +88,3 @@ bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& 
 	);
 
 }
-
-

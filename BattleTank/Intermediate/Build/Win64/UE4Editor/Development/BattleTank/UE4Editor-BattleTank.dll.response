@@ -1,5 +1,5 @@
 /MANIFEST:EMBED
-/MANIFESTINPUT:C:\UnrealEngine\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest
+/MANIFESTINPUT:"C:\Program Files\Epic Games\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest"
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -34,6 +34,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Projectile.cpp.obj"
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.cpp.obj"
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAIController.cpp.obj"
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAiminngComponent.cpp.obj"
@@ -44,6 +45,7 @@
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.cpp.obj"
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.init.gen.cpp.obj"
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.gen.cpp.obj"
+"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Projectile.gen.cpp.obj"
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.gen.cpp.obj"
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAIController.gen.cpp.obj"
 "C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAiminngComponent.gen.cpp.obj"
@@ -75,11 +77,11 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"C:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"C:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\AIModule\UE4Editor-AIModule.lib"
-"C:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"C:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"C:\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\AIModule\UE4Editor-AIModule.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
 /OUT:"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank.dll"
 /IMPLIB:"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.suppressed.lib"
 /PDB:"C:\Users\TarmaDSho\Desktop\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank.pdb"

@@ -18,6 +18,7 @@ UTankAiminngComponent::UTankAiminngComponent()
 void UTankAiminngComponent::AimAt(FVector HitLocation,float LaunchSpeed)
 {
 	if (!Barrel) { return ; }
+	
 
 	FVector OutLaunchVelocity;
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
@@ -31,22 +32,15 @@ void UTankAiminngComponent::AimAt(FVector HitLocation,float LaunchSpeed)
 		false,
 		0,
 		0
-		,ESuggestProjVelocityTraceOption::DoNotTrace // coment this to produce bug
+		,ESuggestProjVelocityTraceOption::DoNotTrace
 	);
 
 	if(bHaveAimSolution)
 	{
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
-		MoveBarrelTowards(AimDirection);
-		auto Time = GetWorld()->GetTimeSeconds();
-		UE_LOG(LogTemp, Warning, TEXT("%f Aim solution found"), Time);
+		MoveBarrelTowards(AimDirection);		
 	}
-	else
-	{
-		auto Time = GetWorld()->GetTimeSeconds();
-		UE_LOG(LogTemp, Warning, TEXT("%f No aim solve found"), Time);
-	}
-
+	// If no solution found do nothing
 }
 
 void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirection)

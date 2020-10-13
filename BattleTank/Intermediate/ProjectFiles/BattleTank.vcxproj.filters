@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleTank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FC240D4B-F4FB-4636-9F64-684215949C8C}</UniqueIdentifier>
+      <UniqueIdentifier>{D5885E9F-6C87-4A9A-9B5B-2D323666EB45}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{ECFB5BD8-FA34-4359-831E-7B5F10923412}</UniqueIdentifier>
+      <UniqueIdentifier>{A4F7807A-871E-4DDE-AE1F-179727E15DA8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BattleTank">
-      <UniqueIdentifier>{22A6DCC9-89BE-44F9-B8E2-1B7D58ACFAF2}</UniqueIdentifier>
+      <UniqueIdentifier>{ABBCA4AA-4350-4571-8F6E-948529A24738}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank\BattleTank.Build.cs">
       <Filter>Source\BattleTank</Filter>
@@ -45,8 +45,11 @@
       <Filter>Source\BattleTank</Filter>
     </ClInclude>
     <Filter Include="Source\BattleTank\Private">
-      <UniqueIdentifier>{FABA7B51-D6DE-49CE-B269-1CC192077792}</UniqueIdentifier>
+      <UniqueIdentifier>{396C0C68-8144-46D7-8BDA-61A7BA2D5CDF}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BattleTank\Private\Projectile.cpp">
+      <Filter>Source\BattleTank\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BattleTank\Private\Tank.cpp">
       <Filter>Source\BattleTank\Private</Filter>
     </ClCompile>
@@ -66,8 +69,11 @@
       <Filter>Source\BattleTank\Private</Filter>
     </ClCompile>
     <Filter Include="Source\BattleTank\Public">
-      <UniqueIdentifier>{5590C417-1DCB-4DA0-BC2C-FCCBA02FD6FC}</UniqueIdentifier>
+      <UniqueIdentifier>{FD7CFC23-F4CA-4F13-B4EE-9E20192DFBAE}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\BattleTank\Public\Projectile.h">
+      <Filter>Source\BattleTank\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\BattleTank\Public\Tank.h">
       <Filter>Source\BattleTank\Public</Filter>
     </ClInclude>
