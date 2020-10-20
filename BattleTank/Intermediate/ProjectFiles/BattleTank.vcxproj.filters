@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleTank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{35D4A08C-CB59-4F83-8299-3ECE16B4C691}</UniqueIdentifier>
+      <UniqueIdentifier>{8314CF0C-C833-4C20-9F48-EA3B1B0A70D3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{79BF79EA-1B8A-4DE8-936B-DA3764ECD2D5}</UniqueIdentifier>
+      <UniqueIdentifier>{99CFF03E-2C25-4C93-A80C-D03ABCB8EEEB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BattleTank">
-      <UniqueIdentifier>{D3A5DB3B-8D01-453A-93F0-908EBE428502}</UniqueIdentifier>
+      <UniqueIdentifier>{2C1BFD4C-FD20-45C5-9E13-F42E3B07DD41}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank\BattleTank.Build.cs">
       <Filter>Source\BattleTank</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\BattleTank</Filter>
     </ClInclude>
     <Filter Include="Source\BattleTank\Private">
-      <UniqueIdentifier>{FCA407B6-D7C9-4608-95BE-FD5F8BE1F276}</UniqueIdentifier>
+      <UniqueIdentifier>{82030181-AD49-424A-9B89-6AE5A0F722A9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BattleTank\Private\Projectile.cpp">
       <Filter>Source\BattleTank\Private</Filter>
@@ -62,6 +62,9 @@
     <ClCompile Include="..\..\Source\BattleTank\Private\TankBarrel.cpp">
       <Filter>Source\BattleTank\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\BattleTank\Private\TankMovementComponent.cpp">
+      <Filter>Source\BattleTank\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BattleTank\Private\TankPlayerController.cpp">
       <Filter>Source\BattleTank\Private</Filter>
     </ClCompile>
@@ -72,7 +75,7 @@
       <Filter>Source\BattleTank\Private</Filter>
     </ClCompile>
     <Filter Include="Source\BattleTank\Public">
-      <UniqueIdentifier>{89DDC91E-01CD-4AF3-A421-22BB14B7EE3E}</UniqueIdentifier>
+      <UniqueIdentifier>{EFDEE667-448E-473C-8B4F-5E66623D0004}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\BattleTank\Public\Projectile.h">
       <Filter>Source\BattleTank\Public</Filter>
@@ -87,6 +90,9 @@
       <Filter>Source\BattleTank\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\BattleTank\Public\TankBarrel.h">
+      <Filter>Source\BattleTank\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BattleTank\Public\TankMovementComponent.h">
       <Filter>Source\BattleTank\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\BattleTank\Public\TankPlayerController.h">
