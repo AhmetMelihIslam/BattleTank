@@ -19,7 +19,6 @@ void UTankAiminngComponent::AimAt(FVector HitLocation,float LaunchSpeed)
 {
 	if (!Barrel) { return ; }
 	
-
 	FVector OutLaunchVelocity;
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
 	bool bHaveAimSolution = UGameplayStatics::SuggestProjectileVelocity
