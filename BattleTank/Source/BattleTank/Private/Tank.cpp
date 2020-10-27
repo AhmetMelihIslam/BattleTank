@@ -3,7 +3,6 @@
 #include "TankBarrel.h"
 #include "Projectile.h"
 #include "TankAiminngComponent.h"
-#include "TankMovementComponent.h"
 #include "Tank.h"
 
 // Sets default values
@@ -11,23 +10,20 @@ ATank::ATank()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
-
-	auto TankName = GetName();
-	UE_LOG(LogTemp, Warning, TEXT("%s DONKEY: Tank C++ Construct"), *TankName);
 }
 
 void ATank::BeginPlay()
 {
 	Super::BeginPlay(); // Needed for BP Begin Play to run!
-
-	auto TankName = GetName();
-	UE_LOG(LogTemp, Warning, TEXT("%s DONKEY: Tank C++ Begin Play"), *TankName);
+	TankAimingComponent = FindComponentByClass<UTankAiminngComponent>();
 }
 
 void ATank::Fire()
 {
+	if (!ensure(Barrel)) { return; }
 	bool isReload = (FPlatformTime::Seconds() - LastFireTime) > ReloadTimeInSecond;
-	if (Barrel && isReload) 
+
+	if (isReload) 
 	{
 		// Spawn a projectile at the socket location on the barrel
 		auto Projectile = GetWorld()->SpawnActor<AProjectile>(
@@ -43,7 +39,7 @@ void ATank::Fire()
 
 void ATank::AimAt(FVector HitLocation)
 {
-	if (!TankAimingComponent) { return; }
+	if (!ensure(TankAimingComponent)) { return; }
 	TankAimingComponent->AimAt(HitLocation, ATank::LaunchSpeed);
 }
 
