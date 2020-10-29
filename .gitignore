@@ -6,6 +6,8 @@
 */DerivedDataCache
 */Intermediate
 */Saved
+*/Source/BattleTank/.idea
+*/.idea
 
 *.Vc.db
 *.suo

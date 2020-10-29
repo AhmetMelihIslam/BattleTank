@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleTank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{343ED5F2-0C83-41B6-93BC-FED41BF5F395}</UniqueIdentifier>
+      <UniqueIdentifier>{047E2641-82C7-449A-BE5C-58232D569135}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3CE53699-57EA-445E-B21B-5161781FDC90}</UniqueIdentifier>
+      <UniqueIdentifier>{C14A9F46-F188-4B4A-92BC-EABB6F3A0C79}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BattleTank">
-      <UniqueIdentifier>{37FCA980-51F2-4744-9857-69A2EA30A3FB}</UniqueIdentifier>
+      <UniqueIdentifier>{16E253DB-8211-4B71-B0B2-F701C9B79FFE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank\BattleTank.Build.cs">
       <Filter>Source\BattleTank</Filter>
@@ -44,8 +44,41 @@
     <ClInclude Include="..\..\Source\BattleTank\BattleTankGameModeBase.h">
       <Filter>Source\BattleTank</Filter>
     </ClInclude>
+    <Filter Include="Source\BattleTank\.idea">
+      <UniqueIdentifier>{7FAE4D9A-8CC4-48EE-BF3F-C035A3E912D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BattleTank\.idea\.idea.BattleTank.dir">
+      <UniqueIdentifier>{03E8BDCD-3756-46EE-A69E-4B3E73B4D3DD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleTank\.idea\.idea.BattleTank.dir\riderModule.iml">
+      <Filter>Source\BattleTank\.idea\.idea.BattleTank.dir</Filter>
+    </None>
+    <Filter Include="Source\BattleTank\.idea\.idea.BattleTank.dir\.idea">
+      <UniqueIdentifier>{11EC6109-6C0E-4C86-AFDF-451395676702}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleTank\.idea\.idea.BattleTank.dir\.idea\contentModel.xml">
+      <Filter>Source\BattleTank\.idea\.idea.BattleTank.dir\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\BattleTank\.idea\.idea.BattleTank.dir\.idea\encodings.xml">
+      <Filter>Source\BattleTank\.idea\.idea.BattleTank.dir\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\BattleTank\.idea\.idea.BattleTank.dir\.idea\indexLayout.xml">
+      <Filter>Source\BattleTank\.idea\.idea.BattleTank.dir\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\BattleTank\.idea\.idea.BattleTank.dir\.idea\modules.xml">
+      <Filter>Source\BattleTank\.idea\.idea.BattleTank.dir\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\BattleTank\.idea\.idea.BattleTank.dir\.idea\projectSettingsUpdater.xml">
+      <Filter>Source\BattleTank\.idea\.idea.BattleTank.dir\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\BattleTank\.idea\.idea.BattleTank.dir\.idea\vcs.xml">
+      <Filter>Source\BattleTank\.idea\.idea.BattleTank.dir\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\BattleTank\.idea\.idea.BattleTank.dir\.idea\workspace.xml">
+      <Filter>Source\BattleTank\.idea\.idea.BattleTank.dir\.idea</Filter>
+    </None>
     <Filter Include="Source\BattleTank\Private">
-      <UniqueIdentifier>{F02AC4DD-9160-4E0D-A16F-57B6B8D0706A}</UniqueIdentifier>
+      <UniqueIdentifier>{81081769-B873-4F37-8D62-2392E36CFE1E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BattleTank\Private\Projectile.cpp">
       <Filter>Source\BattleTank\Private</Filter>
@@ -75,7 +108,7 @@
       <Filter>Source\BattleTank\Private</Filter>
     </ClCompile>
     <Filter Include="Source\BattleTank\Public">
-      <UniqueIdentifier>{8742DBC3-BA06-4582-BCDC-9D215B52DB86}</UniqueIdentifier>
+      <UniqueIdentifier>{24D5D4EE-F716-46E9-8BD2-42E3BAC41D41}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\BattleTank\Public\Projectile.h">
       <Filter>Source\BattleTank\Public</Filter>
