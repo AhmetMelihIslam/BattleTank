@@ -43,6 +43,10 @@ private:
 	// Sets default values for this component's properties
 	UTankAiminngComponent();
 	
+	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override;
+	
+	virtual void BeginPlay() override;
+
 	void MoveBarrelTowards(FVector AimDirection);
 
 	UTankBarrel* Barrel = nullptr;
