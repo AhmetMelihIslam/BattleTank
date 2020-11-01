@@ -15,26 +15,38 @@ UTankAiminngComponent::UTankAiminngComponent()
 
 	// ...
 }
+bool UTankAiminngComponent::IsBarrelMoving()
+{
+	if(!ensure(Barrel)) { return false; }
+	auto BarrelForward = Barrel->GetForwardVector();
+	return !BarrelForward.Equals(AimDirection, 0.01); // vectors are equal
+}
+void UTankAiminngComponent::BeginPlay()
+{
+	// So that first fire is after initial reload
+	LastFireTime = FPlatformTime::Seconds();
+}
 
 void UTankAiminngComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
 {
-	if(	(FPlatformTime::Seconds() - LastFireTime) > ReloadTimeInSeconds)
+	if(	(FPlatformTime::Seconds() - LastFireTime) < ReloadTimeInSeconds)
 	{
 		FiringState = EFiringState::Reloading;
 	}
-	// TODO Handle aiming and locked states
+	else if(IsBarrelMoving() )
+	{
+		FiringState = EFiringState::Aiming;
+	}
+	else
+	{
+		FiringState = EFiringState::Locked;
+	}
 }
 
 void UTankAiminngComponent::Initialise(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet)
 {
 	Barrel = BarrelToSet;
 	Turret = TurretToSet;
-}
-
-void UTankAiminngComponent::BeginPlay()
-{
-	// So that first fire is after initial reload
-	LastFireTime = FPlatformTime::Seconds();
 }
 
 void UTankAiminngComponent::AimAt(FVector HitLocation)
@@ -58,19 +70,19 @@ void UTankAiminngComponent::AimAt(FVector HitLocation)
 
 	if(bHaveAimSolution)
 	{
-		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
+		AimDirection = OutLaunchVelocity.GetSafeNormal();
 		MoveBarrelTowards(AimDirection);		
 	}
 	// If no solution found do nothing
 }
 
-void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirection)
+void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirectionMoveBarrel)
 {
 	if (!ensure(Barrel) || !ensure(Turret)) { return; }
 
-	// Work-out difference between current barrel rotaion, abd AimDirection
+	// Work-out difference between current barrel rotaion, and AimDirection
 	auto BarrelRotator = Barrel->GetForwardVector().Rotation();
-	auto AimAsRotator = AimDirection.Rotation();
+	auto AimAsRotator = AimDirectionMoveBarrel.Rotation();
 	auto DeltaRotator = AimAsRotator - BarrelRotator;
 	
 	Barrel->Elevate(DeltaRotator.Pitch); 
@@ -94,3 +106,4 @@ void UTankAiminngComponent::Fire()
 		LastFireTime = FPlatformTime::Seconds();
 	}
 }
+
