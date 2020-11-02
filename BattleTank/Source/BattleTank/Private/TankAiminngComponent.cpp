@@ -95,7 +95,8 @@ void UTankAiminngComponent::Fire()
 	{
 		// Spawn a projectile at the socket location on the barrel
 		if (!ensure(Barrel)) { return; }
-		if (!ensure(ProjectileBlueprint)) { return; }
+		// if (!ensure(ProjectileBlueprint)) { return; }
+		if (!ProjectileBlueprint) { return; }
 		auto Projectile = GetWorld()->SpawnActor<AProjectile>(
             ProjectileBlueprint,
             Barrel->GetSocketLocation(FName("Projectile")),
