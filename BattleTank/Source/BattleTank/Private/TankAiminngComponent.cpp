@@ -18,8 +18,8 @@ UTankAiminngComponent::UTankAiminngComponent()
 
 bool UTankAiminngComponent::IsBarrelMoving()
 {
-	//if(!ensure(Barrel)) { return false; }
-	if(!Barrel) { return false; }
+	if(!ensure(Barrel)) { return false; }
+	//if(!Barrel) { return false; }
 	auto BarrelForward = Barrel->GetForwardVector();
 	return !BarrelForward.Equals(AimDirection, 0.01); // vectors are equal
 }
@@ -68,8 +68,8 @@ void UTankAiminngComponent::Initialise(UTankBarrel* BarrelToSet, UTankTurret* Tu
 
 void UTankAiminngComponent::AimAt(FVector HitLocation)
 {
-	//if (!ensure(Barrel)) { return ; }
-	if (!Barrel) { return ; }
+	if (!ensure(Barrel)) { return ; }
+	//if (!Barrel) { return ; }
 	
 	FVector OutLaunchVelocity;
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
@@ -94,14 +94,14 @@ void UTankAiminngComponent::AimAt(FVector HitLocation)
 	// If no solution found do nothing
 }
 
-void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirectionMoveBarrel)
+void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirectionBarrelTowards)
 {
-	//if (!ensure(Barrel) || !ensure(Turret)) { return; }
-	if (!Barrel || !Turret) { return; }
+	if (!ensure(Barrel) || !ensure(Turret)) { return; }
+	//if (!Barrel || !Turret) { return; }
 
 	// Work-out difference between current barrel rotaion, and AimDirection
 	auto BarrelRotator = Barrel->GetForwardVector().Rotation();
-	auto AimAsRotator = AimDirectionMoveBarrel.Rotation();
+	auto AimAsRotator = AimDirectionBarrelTowards.Rotation();
 	auto DeltaRotator = AimAsRotator - BarrelRotator;
 	
 	// Always yaw the shortest way
@@ -110,7 +110,7 @@ void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirectionMoveBarrel)
 	{
 		Turret->Rotate(DeltaRotator.Yaw);
 	}	
-	else
+	else // Avoid going the long-way round
 	{
 		Turret->Rotate(-DeltaRotator.Yaw);
 	}
@@ -123,9 +123,7 @@ void UTankAiminngComponent::Fire()
 	{
 		// Spawn a projectile at the socket location on the barrel
 		if (!ensure(Barrel)) { return; }
-		if (!Barrel) { return; }
-		//if (!ensure(ProjectileBlueprint)) { return; }
-		//if (!ProjectileBlueprint) { return; }
+		if (!ensure(ProjectileBlueprint)) { return; }
 		auto Projectile = GetWorld()->SpawnActor<AProjectile>(
             ProjectileBlueprint,
             Barrel->GetSocketLocation(FName("Projectile")),

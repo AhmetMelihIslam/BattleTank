@@ -2,7 +2,6 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "TankAiminngComponent.generated.h"
 
@@ -49,11 +48,11 @@ private:
 	// Sets default values for this component's properties
 	UTankAiminngComponent();
 	
+	virtual void BeginPlay() override;
+	
 	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override;
 	
-	virtual void BeginPlay() override;
-
-	void MoveBarrelTowards(FVector AimDirection);
+	void MoveBarrelTowards(FVector AimDirectionBarrelTowards);
 	
 	bool IsBarrelMoving();
 

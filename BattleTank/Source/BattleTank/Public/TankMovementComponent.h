@@ -24,8 +24,7 @@ public:
 	void IntendMoveForward(float Throw);
 
 	UFUNCTION(BlueprintCallable, Category = "Input")
-	void IntendTurnRight(float Throw);
-	
+	void IntendTurnRight(float Throw);	
 
 private:
 	// Call from the pathfinding logic by the AI controllers
