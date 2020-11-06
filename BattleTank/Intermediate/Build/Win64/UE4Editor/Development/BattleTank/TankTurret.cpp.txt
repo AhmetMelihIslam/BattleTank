@@ -1,0 +1,3 @@
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Public\TankTurret.h
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\TankTurret.generated.h

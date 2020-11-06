@@ -1,0 +1,1112 @@
+﻿Log file open, 10/29/20 16:20:09
+LogInit: Display: Running engine for game: BattleTank
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.290510
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderLink
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.10.29-13.20.09:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.29-13.20.09:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.10.29-13.20.09:858][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.10.29-13.20.09:865][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.29-13.20.09:865][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.29-13.20.09:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.29-13.20.09:867][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.29-13.20.09:867][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.29-13.20.09:867][  0]LogHAL: Display: Platform has ~ 24 GB [25663389696 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.29-13.20.09:867][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.29-13.20.09:867][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.29-13.20.09:867][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.29-13.20.09:868][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.29-13.20.09:869][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.29-13.20.09:870][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.10.29-13.20.09:871][  0]LogInit: Computer: DESKTOP-MQFRF93
+[2020.10.29-13.20.09:871][  0]LogInit: User: TarmaDSho
+[2020.10.29-13.20.09:871][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.29-13.20.09:871][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.29-13.20.09:871][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2020.10.29-13.20.09:871][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.29-13.20.09:871][  0]LogMemory: Process Physical Memory: 116.05 MB used, 116.05 MB peak
+[2020.10.29-13.20.09:871][  0]LogMemory: Process Virtual Memory: 110.53 MB used, 110.53 MB peak
+[2020.10.29-13.20.09:871][  0]LogMemory: Physical Memory: 14563.37 MB used,  9911.15 MB free, 24474.52 MB total
+[2020.10.29-13.20.09:871][  0]LogMemory: Virtual Memory: 5159.03 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.10.29-13.20.09:878][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.29-13.20.09:948][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.29-13.20.09:949][  0]LogInit: Using OS detected language (en-US).
+[2020.10.29-13.20.09:949][  0]LogInit: Using OS detected locale (tr-TR).
+[2020.10.29-13.20.09:952][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.29-13.20.10:328][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.29-13.20.10:374][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.29-13.20.10:374][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.29-13.20.10:624][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.29-13.20.10:624][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.29-13.20.10:624][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.29-13.20.10:624][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.29-13.20.10:724][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.10.29-13.20.10:724][  0]LogD3D11RHI:       4055/0/12237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.29-13.20.10:754][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.10.29-13.20.10:754][  0]LogD3D11RHI:       128/0/12237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.29-13.20.10:758][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.29-13.20.10:758][  0]LogD3D11RHI:       0/0/12237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.29-13.20.10:758][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.29-13.20.10:766][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.29-13.20.10:766][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.10.29-13.20.10:766][  0]LogWindows: EnumDisplayDevices:
+[2020.10.29-13.20.10:766][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2020.10.29-13.20.10:767][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.10.29-13.20.10:767][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.10.29-13.20.10:767][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.29-13.20.10:767][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.10.29-13.20.10:767][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.29-13.20.10:767][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.29-13.20.10:767][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.10.29-13.20.10:854][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.29-13.20.10:855][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.29-13.20.10:893][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.29-13.20.11:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.29-13.20.11:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.29-13.20.11:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.29-13.20.11:374][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.29-13.20.11:374][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.29-13.20.11:386][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.29-13.20.11:397][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.29-13.20.11:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.29-13.20.11:419][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.29-13.20.11:430][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.29-13.20.11:443][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.29-13.20.11:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.29-13.20.11:484][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.29-13.20.11:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.29-13.20.11:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.29-13.20.11:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.29-13.20.11:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.29-13.20.11:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.29-13.20.11:537][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.29-13.20.11:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.29-13.20.11:550][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.29-13.20.11:561][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.29-13.20.11:631][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Intermediate/Shaders/WorkingDirectory/13992/).
+[2020.10.29-13.20.11:631][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TarmaDSho/AppData/Local/Temp/UnrealShaderWorkingDir/2D305F3249E563E0078030A38431C6F6/'.
+[2020.10.29-13.20.11:632][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2020.10.29-13.20.12:576][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.29-13.20.12:645][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/TarmaDSho/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.29-13.20.12:645][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TarmaDSho/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.29-13.20.12:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.29-13.20.12:645][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.29-13.20.12:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.29-13.20.12:645][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.29-13.20.12:658][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.29-13.20.12:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.29-13.20.12:658][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.29-13.20.12:659][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TarmaDSho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.29-13.20.12:659][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.29-13.20.12:659][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.29-13.20.12:724][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.29-13.20.12:725][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.29-13.20.12:760][  0]LogAssetRegistry: FAssetRegistry took 0.0045 seconds to start up
+[2020.10.29-13.20.13:049][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.29-13.20.13:188][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.29-13.20.13:188][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.29-13.20.13:188][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.29-13.20.13:188][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.29-13.20.13:188][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.29-13.20.13:212][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1276994627)
+[2020.10.29-13.20.13:797][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002048FB68280), frame # 0
+[2020.10.29-13.20.13:797][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002048FAD07C0), frame # 0
+[2020.10.29-13.20.13:799][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002048FB14800), frame # 0
+[2020.10.29-13.20.13:877][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.067763 seconds
+[2020.10.29-13.20.13:883][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.29-13.20.13:883][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.29-13.20.13:883][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.29-13.20.14:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.29-13.20.14:302][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.29-13.20.14:391][  0]SourceControl: Source control is disabled
+[2020.10.29-13.20.14:391][  0]SourceControl: Source control is disabled
+[2020.10.29-13.20.14:395][  0]SourceControl: Source control is disabled
+[2020.10.29-13.20.14:399][  0]SourceControl: Source control is disabled
+[2020.10.29-13.20.14:412][  0]SourceControl: Source control is disabled
+[2020.10.29-13.20.14:691][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.29-13.20.14:714][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.29-13.20.14:714][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.29-13.20.14:779][  0]LogOcInput: OculusInput pre-init called
+[2020.10.29-13.20.14:791][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.29-13.20.14:791][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.29-13.20.14:862][  0]LogEngine: Initializing Engine...
+[2020.10.29-13.20.14:863][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.29-13.20.14:863][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.29-13.20.14:864][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.29-13.20.15:015][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.29-13.20.15:023][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.29-13.20.15:023][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020495541C00), frame # 0
+[2020.10.29-13.20.15:023][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020495571E40), frame # 0
+[2020.10.29-13.20.15:061][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-13.20.15:061][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-13.20.15:061][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-13.20.15:061][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-13.20.15:061][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-13.20.15:061][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-13.20.15:061][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-13.20.15:061][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-13.20.15:062][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-13.20.15:062][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-13.20.15:078][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-13.20.15:078][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-13.20.15:114][  0]LogAudioMixer: Display: Using Audio Device LG TV (Intel(R) Display Audio)
+[2020.10.29-13.20.15:117][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-13.20.15:120][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-13.20.15:120][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-13.20.15:121][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-13.20.15:123][  0]LogInit: FAudioDevice initialized.
+[2020.10.29-13.20.15:123][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.29-13.20.15:211][  0]LogDerivedDataCache: Saved boot cache 0.09s 75MB C:/Users/TarmaDSho/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.29-13.20.15:217][  0]LogInit: Texture streaming: Enabled
+[2020.10.29-13.20.15:237][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.29-13.20.15:238][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9FFD64C3-4E4E-3363-9D31-368E73C3EEFE}
+[2020.10.29-13.20.15:238][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.29-13.20.15:241][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.29-13.20.15:322][  0]LogInit: Transaction tracking system initialized
+[2020.10.29-13.20.15:344][  0]BlueprintLog: New page: Editor Load
+[2020.10.29-13.20.15:421][  0]LocalizationService: Localization service is disabled
+[2020.10.29-13.20.15:612][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.29-13.20.15:612][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.29-13.20.15:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/' took 0.01s
+[2020.10.29-13.20.16:040][  0]SourceControl: Source control is disabled
+[2020.10.29-13.20.16:040][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.398
+[2020.10.29-13.20.16:040][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-13.20.16:041][  0]LightingResults: New page: Lighting Build
+[2020.10.29-13.20.16:042][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-13.20.16:042][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-13.20.16:042][  0]MapCheck: New page: Map Check
+[2020.10.29-13.20.16:043][  0]LightingResults: New page: Lighting Build
+[2020.10.29-13.20.16:054][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020495541C00), frame # 0
+[2020.10.29-13.20.16:054][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020495571E40), frame # 0
+[2020.10.29-13.20.16:055][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.10.29-13.20.16:320][  0]LogAIModule: Creating AISystem for world BattleGround
+[2020.10.29-13.20.16:320][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002048182E200), frame # 0
+[2020.10.29-13.20.16:320][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002048196ED40), frame # 0
+[2020.10.29-13.20.16:463][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-13.20.16:503][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.10.29-13.20.16:503][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-13.20.16:504][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,195ms to complete.
+[2020.10.29-13.20.16:504][  0]LogFileHelpers: Loading map 'BattleGround' took 0.464
+[2020.10.29-13.20.16:507][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.865
+[2020.10.29-13.20.16:676][  0]LogCollectionManager: Loaded 0 collections in 0.002842 seconds
+[2020.10.29-13.20.16:697][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/Collections/' took 0.00s
+[2020.10.29-13.20.16:697][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Developers/TarmaDSho/Collections/' took 0.00s
+[2020.10.29-13.20.16:697][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Collections/' took 0.00s
+[2020.10.29-13.20.16:697][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 3437 classes and 824 folders.
+[2020.10.29-13.20.16:700][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.29-13.20.16:749][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.10.29-13.20.16:813][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.20.16:869][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.20.16:877][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.20.16:889][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.20.16:927][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.10.29-13.20.17:062][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.29-13.20.17:062][  0]LogLoad: (Engine Initialization) Total time: 9.42 seconds
+[2020.10.29-13.20.17:062][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.29-13.20.17:126][  0]LogAssetRegistry: Asset discovery search completed in 4.3682 seconds
+[2020.10.29-13.20.17:134][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.10.29-13.20.17:136][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.29-13.20.17:143][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.29-13.20.17:145][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.29-13.20.17:145][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.29-13.20.17:384][  1]LogRenderer: Reallocating scene render targets to support 764x424 Format 10 NumSamples 1 (Frame:1).
+[2020.10.29-13.20.18:420][  4]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.29-13.20.25:656][144]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.29-13.20.25:706][144]LogRenderer: Reallocating scene render targets to support 1152x676 Format 10 NumSamples 1 (Frame:125).
+[2020.10.29-13.20.27:202][284]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Tank/New_Tank/New_Tank_BP.New_Tank_BP
+[2020.10.29-13.20.27:395][284]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.10.29-13.20.28:470][284]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.29-13.20.28:519][285]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.29-13.20.45:691][ 74]BlueprintLog: New page: Compile New_Tank_BP
+[2020.10.29-13.20.45:804][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.10.29-13.20.46:256][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/New_Tank/New_Tank_BP" FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Tank/New_Tank/New_Tank_BP.uasset" SILENT=true
+[2020.10.29-13.20.46:293][ 88]LogSavePackage: Moving '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/New_Tank_BP596D65A843D83AACA33D1FA2CDF4519D.tmp' to '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Tank/New_Tank/New_Tank_BP.uasset'
+[2020.10.29-13.20.46:316][ 88]AssetCheck: New page: Asset Save: New_Tank_BP
+[2020.10.29-13.20.46:317][ 88]LogContentValidation: Display: Validating Blueprint /Game/Tank/New_Tank/New_Tank_BP.New_Tank_BP
+[2020.10.29-13.20.47:240][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleGround" FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-13.20.47:270][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.10.29-13.20.47:824][166]LogSavePackage: Moving '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/BattleGroundF30101AD4E01520C2D0E89A3AD3BA036.tmp' to '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround.umap'
+[2020.10.29-13.20.47:881][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleGround_BuiltData" FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround_BuiltData.uasset" SILENT=true
+[2020.10.29-13.20.48:054][166]LogSavePackage: Moving '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/BattleGround_BuiltDataC69170B94C1C771DDC66BF8C28FE8881.tmp' to '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround_BuiltData.uasset'
+[2020.10.29-13.20.48:075][166]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.29-13.20.48:075][166]LogContentValidation: Display: Validating World /Game/Level/BattleGround.BattleGround
+[2020.10.29-13.20.48:075][166]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level/BattleGround_BuiltData.BattleGround_BuiltData
+[2020.10.29-13.20.48:473][195]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-13.20.48:499][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-13.20.48:500][195]PIE: New page: PIE session: BattleGround (29 Eki 2020 19:20:48)
+[2020.10.29-13.20.48:501][195]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.29-13.20.48:503][195]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.29-13.20.48:503][195]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleGround
+[2020.10.29-13.20.48:578][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074635s)
+[2020.10.29-13.20.48:580][195]LogAIModule: Creating AISystem for world BattleGround
+[2020.10.29-13.20.48:580][195]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204BFF83E00), frame # 2195
+[2020.10.29-13.20.48:580][195]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000204BF98D080), frame # 2195
+[2020.10.29-13.20.48:580][195]LogPlayLevel: PIE: World Init took: (0.002266s)
+[2020.10.29-13.20.48:581][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleGround.BattleGround to /Game/Level/UEDPIE_0_BattleGround.BattleGround (0.077193s)
+[2020.10.29-13.20.48:602][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.29-13.20.48:604][195]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-13.20.48:604][195]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-13.20.48:604][195]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-13.20.48:604][195]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-13.20.48:604][195]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-13.20.48:604][195]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-13.20.48:604][195]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-13.20.48:604][195]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-13.20.48:605][195]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-13.20.48:605][195]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-13.20.48:608][195]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-13.20.48:608][195]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-13.20.48:620][195]LogAudioMixer: Display: Using Audio Device LG TV (Intel(R) Display Audio)
+[2020.10.29-13.20.48:620][195]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-13.20.48:620][195]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-13.20.48:620][195]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-13.20.48:621][195]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-13.20.48:640][195]LogInit: FAudioDevice initialized.
+[2020.10.29-13.20.48:652][195]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.10.29-13.20.48:667][195]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.10.29-16.20.48
+[2020.10.29-13.20.48:669][195]LogWorld: Bringing up level for play took: 0.014181
+[2020.10.29-13.20.48:670][195]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.10.29-13.20.48:674][195]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.10.29-13.20.48:679][195]PIE: Server logged in
+[2020.10.29-13.20.48:681][195]PIE: Play in editor total start time 0,182 seconds.
+[2020.10.29-13.20.53:102][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.20.53:103][478]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_BattleGround
+[2020.10.29-13.20.53:104][478]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-13.20.53:108][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-13.20.53:116][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-13.20.53:122][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-13.20.53:149][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.20.53:186][478]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000204BF98D080), frame # 2478
+[2020.10.29-13.20.53:186][478]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204BFF83E00), frame # 2478
+[2020.10.29-13.20.53:208][478]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.10.29-13.20.53:268][479]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.10.29-13.21.38:269][960]Candidate modules for hot reload:
+[2020.10.29-13.21.38:269][960]  BattleTank
+[2020.10.29-13.21.38:269][960]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,4923 BattleTankEditor Win64 Development -Project="C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/BattleTank.uproject" "C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.10.29-13.21.38:273][960]Warning: Starting HotReload took  0.0s.
+[2020.10.29-13.21.43:500][172]CompilerResultsLog: New page: Compilation - 29 Eki 2020 19:21:43
+[2020.10.29-13.21.43:500][172]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TarmaDSho\Desktop\TANK04).
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: Building BattleTankEditor...
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: Distributing 4 actions to XGE
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: License is invalid:
+[2020.10.29-13.21.43:501][172]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.10.29-13.21.43:501][172]CompilerResultsLog:     This build will run in standalone mode.
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: 
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: TankAiminngComponent.cpp (0:01.67 at +0:00)
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: UE4Editor-BattleTank-4923.dll (0:01.31 at +0:01)
+[2020.10.29-13.21.43:501][172]CompilerResultsLog:    Creating library C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-4923.suppressed.lib and object C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-4923.suppressed.exp
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: UE4Editor-BattleTank-4923.lib (0:00.17 at +0:03)
+[2020.10.29-13.21.43:501][172]CompilerResultsLog:    Creating library C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-4923.lib and object C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-4923.exp
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: BattleTankEditor.target (0:00.31 at +0:03)
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: 
+[2020.10.29-13.21.43:501][172]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: 
+[2020.10.29-13.21.43:501][172]CompilerResultsLog: 1 build system warning(s):
+[2020.10.29-13.21.43:501][172]CompilerResultsLog:    - License is invalid
+[2020.10.29-13.21.43:502][172]CompilerResultsLog: 
+[2020.10.29-13.21.43:502][172]CompilerResultsLog: Total time in XGE executor: 3,83 seconds
+[2020.10.29-13.21.43:502][172]CompilerResultsLog: Total execution time: 5,07 seconds
+[2020.10.29-13.21.43:502][172]LogMainFrame: MainFrame: Module compiling took 5.257 seconds
+[2020.10.29-13.21.43:556][172]LogClass: EFiringState HotReload.
+[2020.10.29-13.21.43:563][172]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 10 classes and 3 folders.
+[2020.10.29-13.21.43:568][172]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.10.29-13.21.43:682][172]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 3437 classes and 824 folders.
+[2020.10.29-13.21.43:682][172]Display: HotReload took  5.4s.
+[2020.10.29-13.21.44:169][172]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.29-13.22.05:290][105]BlueprintLog: New page: Compile New_Tank_BP
+[2020.10.29-13.22.05:450][105]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2020.10.29-13.22.10:074][612]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.29-13.22.11:282][746]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.29-13.22.13:561][999]BlueprintLog: New page: Compile New_Tank_BP
+[2020.10.29-13.22.13:689][999]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.10.29-13.22.14:171][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/New_Tank/New_Tank_BP" FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Tank/New_Tank/New_Tank_BP.uasset" SILENT=true
+[2020.10.29-13.22.14:203][ 22]LogSavePackage: Moving '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/New_Tank_BP248F598F4F82982DD77D1AAB7CD26758.tmp' to '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Tank/New_Tank/New_Tank_BP.uasset'
+[2020.10.29-13.22.14:220][ 22]AssetCheck: New page: Asset Save: New_Tank_BP
+[2020.10.29-13.22.14:220][ 22]LogContentValidation: Display: Validating Blueprint /Game/Tank/New_Tank/New_Tank_BP.New_Tank_BP
+[2020.10.29-13.22.17:432][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleGround" FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-13.22.17:463][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.10.29-13.22.17:984][162]LogSavePackage: Moving '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/BattleGround107407C94174F4393A0F9D8F3D40BE84.tmp' to '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround.umap'
+[2020.10.29-13.22.18:040][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleGround_BuiltData" FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround_BuiltData.uasset" SILENT=true
+[2020.10.29-13.22.18:164][162]LogSavePackage: Moving '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/BattleGround_BuiltDataACE8981D4273C662CEDAEEA8CE09C926.tmp' to '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround_BuiltData.uasset'
+[2020.10.29-13.22.18:191][162]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.29-13.22.18:191][162]LogContentValidation: Display: Validating World /Game/Level/BattleGround.BattleGround
+[2020.10.29-13.22.18:191][162]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level/BattleGround_BuiltData.BattleGround_BuiltData
+[2020.10.29-13.22.18:893][186]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-13.22.18:930][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-13.22.18:930][186]PIE: New page: PIE session: BattleGround (29 Eki 2020 19:22:18)
+[2020.10.29-13.22.18:930][186]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleGround
+[2020.10.29-13.22.19:003][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072642s)
+[2020.10.29-13.22.19:006][186]LogAIModule: Creating AISystem for world BattleGround
+[2020.10.29-13.22.19:006][186]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002050F996400), frame # 6186
+[2020.10.29-13.22.19:006][186]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020515E2E5C0), frame # 6186
+[2020.10.29-13.22.19:007][186]LogPlayLevel: PIE: World Init took: (0.003020s)
+[2020.10.29-13.22.19:007][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleGround.BattleGround to /Game/Level/UEDPIE_0_BattleGround.BattleGround (0.076056s)
+[2020.10.29-13.22.19:038][186]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2020.10.29-13.22.19:039][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-13.22.19:040][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-13.22.19:040][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-13.22.19:040][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-13.22.19:040][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-13.22.19:040][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-13.22.19:040][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-13.22.19:040][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-13.22.19:041][186]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-13.22.19:041][186]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-13.22.19:043][186]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-13.22.19:043][186]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-13.22.19:056][186]LogAudioMixer: Display: Using Audio Device LG TV (Intel(R) Display Audio)
+[2020.10.29-13.22.19:056][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-13.22.19:056][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-13.22.19:056][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-13.22.19:057][186]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-13.22.19:076][186]LogInit: FAudioDevice initialized.
+[2020.10.29-13.22.19:090][186]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.10.29-13.22.19:103][186]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.10.29-16.22.19
+[2020.10.29-13.22.19:105][186]LogWorld: Bringing up level for play took: 0.013806
+[2020.10.29-13.22.19:106][186]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.10.29-13.22.19:113][186]PIE: Server logged in
+[2020.10.29-13.22.19:115][186]PIE: Play in editor total start time 0,188 seconds.
+[2020.10.29-13.22.24:711][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.22.24:711][531]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_BattleGround
+[2020.10.29-13.22.24:711][531]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-13.22.24:715][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-13.22.24:727][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-13.22.24:732][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-13.22.24:762][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.22.24:787][531]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020515E2E5C0), frame # 6531
+[2020.10.29-13.22.24:787][531]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002050F996400), frame # 6531
+[2020.10.29-13.22.24:792][531]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.10.29-13.22.24:849][532]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.10.29-13.22.26:431][598]Candidate modules for hot reload:
+[2020.10.29-13.22.26:431][598]  BattleTank
+[2020.10.29-13.22.26:432][598]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,9874 BattleTankEditor Win64 Development -Project="C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/BattleTank.uproject" "C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.10.29-13.22.26:435][598]Warning: Starting HotReload took  0.0s.
+[2020.10.29-13.22.29:822][734]CompilerResultsLog: New page: Compilation - 29 Eki 2020 19:22:29
+[2020.10.29-13.22.29:822][734]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TarmaDSho\Desktop\TANK04).
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: Building BattleTankEditor...
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: Distributing 3 actions to XGE
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: License is invalid:
+[2020.10.29-13.22.29:823][734]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.10.29-13.22.29:823][734]CompilerResultsLog:     This build will run in standalone mode.
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: 
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: UE4Editor-BattleTank-9874.dll (0:01.21 at +0:00)
+[2020.10.29-13.22.29:823][734]CompilerResultsLog:    Creating library C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-9874.suppressed.lib and object C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-9874.suppressed.exp
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: UE4Editor-BattleTank-9874.lib (0:00.17 at +0:01)
+[2020.10.29-13.22.29:823][734]CompilerResultsLog:    Creating library C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-9874.lib and object C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-9874.exp
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: BattleTankEditor.target (0:00.31 at +0:01)
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: 
+[2020.10.29-13.22.29:823][734]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: 
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: 1 build system warning(s):
+[2020.10.29-13.22.29:823][734]CompilerResultsLog:    - License is invalid
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: 
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: Total time in XGE executor: 1,98 seconds
+[2020.10.29-13.22.29:823][734]CompilerResultsLog: Total execution time: 3,24 seconds
+[2020.10.29-13.22.29:823][734]LogMainFrame: MainFrame: Module compiling took 3.419 seconds
+[2020.10.29-13.22.29:878][734]LogClass: EFiringState HotReload.
+[2020.10.29-13.22.29:882][734]LogHotReload: Re-instancing TankAiminngComponent after hot-reload.
+[2020.10.29-13.22.29:884][734]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.29-13.22.34:535][734]LogStats: FPlatformStackWalk::StackWalkAndDump -  4.650 s
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: 
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: Ensure condition failed: bArchetypeReinstanced [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp] [Line: 1657]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: Reinstancing non-actor (/Game/Level/BattleGround.BattleGround:PersistentLevel.New_Tank_BP11.TankAiminng); failed to resolve archetype object - property values may be lost.
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: Stack: 
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb5d2a58ce UE4Editor-UnrealEd.dll!DispatchCheckVerify<bool,<lambda_a2b97994ef53902bdcf425a4bd4a12eb> >() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:161]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb5cafc279 UE4Editor-UnrealEd.dll!ReplaceObjectHelper() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:1657]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb5caf9d90 UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:2038]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb5caf8ea5 UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:1500]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb5caf5ece UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceInner() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:708]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb5caf63ee UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:782]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb47876c97 UE4Editor-HotReload.dll!FHotReloadModule::ReinstanceClass() [D:\Build\++UE4\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:1270]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb47876e01 UE4Editor-HotReload.dll!FHotReloadModule::ReinstanceClasses() [D:\Build\++UE4\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:1256]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb4786f836 UE4Editor-HotReload.dll!TBaseRawMethodDelegateInstance<0,FHotReloadModule,void __cdecl(void)>::ExecuteIfSafe() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:546]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb6652ed1d UE4Editor-CoreUObject.dll!TBaseMulticastDelegate<void>::Broadcast() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1013]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb668b6839 UE4Editor-CoreUObject.dll!UClassReplaceHotReloadClasses() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectBase.cpp:796]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb66895bc6 UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectBase.cpp:955]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb667b4465 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(FName,bool)>::ExecuteIfSafe() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:859]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb639f986a UE4Editor-Core.dll!TBaseMulticastDelegate<void,FName,bool>::Broadcast() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1013]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb63a199f0 UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp:500]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb63a18b08 UE4Editor-Core.dll!FModuleManager::LoadModule() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp:334]
+[2020.10.29-13.22.34:535][734]LogOutputDevice: Error: [Callstack] 0x00007ffb4786b9b2 UE4Editor-HotReload.dll!FHotReloadModule::DoHotReloadInternal() [D:\Build\++UE4\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:799]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ffb47869617 UE4Editor-HotReload.dll!UE4Function_Private::TFunctionRefCaller<<lambda_d85446a946c3f6776c68ebfeb93e5785>,void __cdecl(TMap<FName,FString,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<FName,FString,0> > const &,bool,enum ECompilationResult::Type)>::Call() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Templates\Function.h:549]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ffb4786a1ad UE4Editor-HotReload.dll!FHotReloadModule::CheckForFinishedModuleDLLCompile() [D:\Build\++UE4\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:1865]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ffb4787c057 UE4Editor-HotReload.dll!FHotReloadModule::Tick() [D:\Build\++UE4\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:1427]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ffb6377d0a9 UE4Editor-Core.dll!FTicker::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Containers\Ticker.cpp:95]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ff74c77a213 UE4Editor.exe!FEngineLoop::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:5051]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ff74c78ba7c UE4Editor.exe!GuardedMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:169]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ff74c78bb5a UE4Editor.exe!GuardedMainWrapper() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:137]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ff74c79e31d UE4Editor.exe!WinMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:268]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ff74c7a145a UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\5\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ffbcfff7034 KERNEL32.DLL!UnknownFunction []
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: [Callstack] 0x00007ffbd199cec1 ntdll.dll!UnknownFunction []
+[2020.10.29-13.22.34:536][734]LogOutputDevice: Error: 
+[2020.10.29-13.22.34:537][734]LogStats:                SubmitErrorReport -  0.000 s
+[2020.10.29-13.22.37:023][734]LogStats:                    SendNewReport -  2.487 s
+[2020.10.29-13.22.37:023][734]LogStats:             FDebug::EnsureFailed -  7.139 s
+[2020.10.29-13.22.37:117][734]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0006 seconds. Added 10 classes and 3 folders.
+[2020.10.29-13.22.37:124][734]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.10.29-13.22.37:247][734]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 3437 classes and 824 folders.
+[2020.10.29-13.22.37:247][734]Display: HotReload took 10.8s.
+[2020.10.29-13.22.40:903][748]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-13.22.40:933][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-13.22.40:933][748]PIE: New page: PIE session: BattleGround (29 Eki 2020 19:22:40)
+[2020.10.29-13.22.40:933][748]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleGround
+[2020.10.29-13.22.41:003][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070030s)
+[2020.10.29-13.22.41:005][748]LogAIModule: Creating AISystem for world BattleGround
+[2020.10.29-13.22.41:005][748]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204A71F8800), frame # 6748
+[2020.10.29-13.22.41:006][748]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051EB5E5C0), frame # 6748
+[2020.10.29-13.22.41:006][748]LogPlayLevel: PIE: World Init took: (0.003010s)
+[2020.10.29-13.22.41:007][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleGround.BattleGround to /Game/Level/UEDPIE_0_BattleGround.BattleGround (0.073303s)
+[2020.10.29-13.22.41:095][748]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2020.10.29-13.22.41:096][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-13.22.41:096][748]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-13.22.41:096][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-13.22.41:096][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-13.22.41:096][748]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-13.22.41:096][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-13.22.41:096][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-13.22.41:096][748]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-13.22.41:097][748]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-13.22.41:097][748]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-13.22.41:100][748]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-13.22.41:100][748]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-13.22.41:112][748]LogAudioMixer: Display: Using Audio Device LG TV (Intel(R) Display Audio)
+[2020.10.29-13.22.41:112][748]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-13.22.41:112][748]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-13.22.41:112][748]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-13.22.41:112][748]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-13.22.41:137][748]LogInit: FAudioDevice initialized.
+[2020.10.29-13.22.41:150][748]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.10.29-13.22.41:166][748]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.10.29-16.22.41
+[2020.10.29-13.22.41:168][748]LogWorld: Bringing up level for play took: 0.016450
+[2020.10.29-13.22.41:169][748]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.10.29-13.22.41:175][748]PIE: Server logged in
+[2020.10.29-13.22.41:177][748]PIE: Play in editor total start time 0,247 seconds.
+[2020.10.29-13.22.43:196][853]LogOutputDevice: Warning: 
+
+Script Stack (2 frames):
+New_Tank_BP_C.ExecuteUbergraph_New_Tank_BP
+New_Tank_BP_C.InpActEvt_Fire_K2Node_InputActionEvent_0
+
+[2020.10.29-13.22.44:296][853]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.098 s
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: 
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: Ensure condition failed: Barrel && ProjectileBlueprint [File:C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\TankAiminngComponent.cpp] [Line: 67]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: 
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: Stack: 
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb3debe188 UE4Editor-BattleTank-9874.dll!<lambda_25bf01da67db58882fe93506d7f889fd>::operator()() [C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\TankAiminngComponent.cpp:67]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb3deb4218 UE4Editor-BattleTank-9874.dll!UTankAiminngComponent::Fire() [C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\TankAiminngComponent.cpp:67]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb66620b34 UE4Editor-CoreUObject.dll!UFunction::Invoke() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:5542]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb668700ad UE4Editor-CoreUObject.dll!UObject::CallFunction() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:927]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb668930e3 UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:2796]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb6689571d UE4Editor-CoreUObject.dll!ProcessLocalScriptFunction() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:997]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb66863bba UE4Editor-CoreUObject.dll!ProcessScriptFunction<void (__cdecl*)(UObject *,FFrame &,void *)>() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:828]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb66895362 UE4Editor-CoreUObject.dll!ProcessLocalFunction() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1058]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb6689571d UE4Editor-CoreUObject.dll!ProcessLocalScriptFunction() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:997]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb66894c24 UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1085]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb66620b34 UE4Editor-CoreUObject.dll!UFunction::Invoke() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:5542]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb66894753 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1916]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd7afe5 UE4Editor-Engine.dll!AActor::ProcessEvent() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp:798]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ef390d4 UE4Editor-Engine.dll!FInputActionUnifiedDelegate::Execute() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Classes\Components\InputComponent.h:302]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ef6514e UE4Editor-Engine.dll!UPlayerInput::ProcessInputStack() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\UserInterface\PlayerInput.cpp:1321]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ea6b988 UE4Editor-Engine.dll!APlayerController::ProcessPlayerInput() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PlayerController.cpp:2567]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ea7f1b4 UE4Editor-Engine.dll!APlayerController::TickPlayerInput() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PlayerController.cpp:4580]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ea69a1b UE4Editor-Engine.dll!APlayerController::PlayerTick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PlayerController.cpp:2228]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ea7d681 UE4Editor-Engine.dll!APlayerController::TickActor() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PlayerController.cpp:4726]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd59f84 UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp:171]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ee1936f UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:283]
+[2020.10.29-13.22.44:296][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ee1e3c7 UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Async\TaskGraphInterfaces.h:849]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb637687d8 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:692]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb63768aa3 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:587]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb6377f027 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:1478]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ee3a402 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:558]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5ee3f6ca UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:1523]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5e5fd0bf UE4Editor-Engine.dll!UWorld::RunTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:783]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5e607957 UE4Editor-Engine.dll!UWorld::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:1558]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5c6baf57 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp:1693]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffb5cf937e6 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\UnrealEdEngine.cpp:414]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ff74c777800 UE4Editor.exe!FEngineLoop::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:4850]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ff74c78ba7c UE4Editor.exe!GuardedMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:169]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ff74c78bb5a UE4Editor.exe!GuardedMainWrapper() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:137]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ff74c79e31d UE4Editor.exe!WinMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:268]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ff74c7a145a UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\5\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffbcfff7034 KERNEL32.DLL!UnknownFunction []
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: [Callstack] 0x00007ffbd199cec1 ntdll.dll!UnknownFunction []
+[2020.10.29-13.22.44:297][853]LogOutputDevice: Error: 
+[2020.10.29-13.22.44:298][853]LogStats:                SubmitErrorReport -  0.000 s
+[2020.10.29-13.22.45:284][853]LogStats:                    SendNewReport -  0.987 s
+[2020.10.29-13.22.45:284][853]LogStats:             FDebug::EnsureFailed -  2.087 s
+[2020.10.29-13.23.00:859][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.23.00:860][894]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_BattleGround
+[2020.10.29-13.23.00:860][894]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-13.23.00:864][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-13.23.00:876][894]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-13.23.00:882][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-13.23.00:944][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-13.23.00:947][894]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051EB5E5C0), frame # 7894
+[2020.10.29-13.23.00:947][894]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204A71F8800), frame # 7894
+[2020.10.29-13.23.00:969][894]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2020.10.29-13.23.01:022][895]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.10.29-13.23.22:529][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleGround" FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-13.23.22:558][993]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.10.29-13.23.23:070][993]LogSavePackage: Moving '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/BattleGround00B6249748D252D14618AAA02057B865.tmp' to '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround.umap'
+[2020.10.29-13.23.23:123][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleGround_BuiltData" FILE="../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround_BuiltData.uasset" SILENT=true
+[2020.10.29-13.23.23:249][993]LogSavePackage: Moving '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Saved/BattleGround_BuiltData46D6B1F14152DBF259FB08BE0B2C8E4D.tmp' to '../../../../../../Users/TarmaDSho/Desktop/TANK04/BattleTank/Content/Level/BattleGround_BuiltData.uasset'
+[2020.10.29-13.23.23:274][993]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.29-13.23.23:274][993]LogContentValidation: Display: Validating World /Game/Level/BattleGround.BattleGround
+[2020.10.29-13.23.23:274][993]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level/BattleGround_BuiltData.BattleGround_BuiltData
+[2020.10.29-13.23.23:829][  8]Candidate modules for hot reload:
+[2020.10.29-13.23.23:829][  8]  BattleTank
+[2020.10.29-13.23.23:829][  8]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,9239 BattleTankEditor Win64 Development -Project="C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/BattleTank.uproject" "C:/Users/TarmaDSho/Desktop/TANK04/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.10.29-13.23.23:832][  8]Warning: Starting HotReload took  0.0s.
+[2020.10.29-13.23.30:031][266]CompilerResultsLog: New page: Compilation - 29 Eki 2020 19:23:30
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TarmaDSho\Desktop\TANK04).
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: Building BattleTankEditor...
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: Distributing 4 actions to XGE
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: License is invalid:
+[2020.10.29-13.23.30:032][266]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.10.29-13.23.30:032][266]CompilerResultsLog:     This build will run in standalone mode.
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: 
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: TankAIController.cpp (0:02.56 at +0:00)
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: UE4Editor-BattleTank-9239.dll (0:01.40 at +0:02)
+[2020.10.29-13.23.30:032][266]CompilerResultsLog:    Creating library C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-9239.suppressed.lib and object C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-9239.suppressed.exp
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: UE4Editor-BattleTank-9239.lib (0:00.17 at +0:04)
+[2020.10.29-13.23.30:032][266]CompilerResultsLog:    Creating library C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-9239.lib and object C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-9239.exp
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: BattleTankEditor.target (0:00.37 at +0:04)
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: 
+[2020.10.29-13.23.30:032][266]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: 
+[2020.10.29-13.23.30:032][266]CompilerResultsLog: 1 build system warning(s):
+[2020.10.29-13.23.30:032][266]CompilerResultsLog:    - License is invalid
+[2020.10.29-13.23.30:033][266]CompilerResultsLog: 
+[2020.10.29-13.23.30:033][266]CompilerResultsLog: Total time in XGE executor: 4,79 seconds
+[2020.10.29-13.23.30:033][266]CompilerResultsLog: Total execution time: 6,03 seconds
+[2020.10.29-13.23.30:033][266]LogMainFrame: MainFrame: Module compiling took 6.230 seconds
+[2020.10.29-13.23.30:119][266]LogClass: EFiringState HotReload.
+[2020.10.29-13.23.30:129][266]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 10 classes and 3 folders.
+[2020.10.29-13.23.30:134][266]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.10.29-13.23.30:260][266]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 3437 classes and 824 folders.
+[2020.10.29-13.23.30:260][266]Display: HotReload took  6.5s.
+[2020.10.29-13.23.31:794][314]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-13.23.31:839][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-13.23.31:839][314]PIE: New page: PIE session: BattleGround (29 Eki 2020 19:23:31)
+[2020.10.29-13.23.31:839][314]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleGround
+[2020.10.29-13.23.31:914][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074600s)
+[2020.10.29-13.23.31:916][314]LogAIModule: Creating AISystem for world BattleGround
+[2020.10.29-13.23.31:917][314]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002052D4BFE00), frame # 8314
+[2020.10.29-13.23.31:917][314]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000205C5D51080), frame # 8314
+[2020.10.29-13.23.31:918][314]LogPlayLevel: PIE: World Init took: (0.003683s)
+[2020.10.29-13.23.31:918][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleGround.BattleGround to /Game/Level/UEDPIE_0_BattleGround.BattleGround (0.078682s)
+[2020.10.29-13.23.31:995][314]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.10.29-13.23.31:996][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-13.23.31:997][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-13.23.31:997][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-13.23.31:997][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-13.23.31:997][314]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-13.23.31:997][314]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-13.23.31:997][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-13.23.31:997][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-13.23.31:998][314]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-13.23.31:998][314]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-13.23.32:000][314]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-13.23.32:000][314]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-13.23.32:014][314]LogAudioMixer: Display: Using Audio Device LG TV (Intel(R) Display Audio)
+[2020.10.29-13.23.32:014][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-13.23.32:014][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-13.23.32:014][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-13.23.32:015][314]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-13.23.32:035][314]LogInit: FAudioDevice initialized.
+[2020.10.29-13.23.32:045][314]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.10.29-13.23.32:058][314]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.10.29-16.23.32
+[2020.10.29-13.23.32:059][314]LogWorld: Bringing up level for play took: 0.014286
+[2020.10.29-13.23.32:061][314]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.10.29-13.23.32:065][314]PIE: Server logged in
+[2020.10.29-13.23.32:066][314]PIE: Play in editor total start time 0,232 seconds.
+[2020.10.29-13.23.32:067][314]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.29-13.23.32:935][314]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.868 s
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: 
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: Ensure condition failed: Barrel && ProjectileBlueprint [File:C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\TankAiminngComponent.cpp] [Line: 67]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: 
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: Stack: 
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb3de6e188 UE4Editor-BattleTank-9239.dll!<lambda_25bf01da67db58882fe93506d7f889fd>::operator()() [C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\TankAiminngComponent.cpp:67]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb3de64228 UE4Editor-BattleTank-9239.dll!UTankAiminngComponent::Fire() [C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\TankAiminngComponent.cpp:67]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5e60b148 UE4Editor-Engine.dll!AController::TickActor() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:416]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd59f84 UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp:171]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5ee1936f UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:283]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5ee1e3c7 UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Async\TaskGraphInterfaces.h:849]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb637687d8 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:692]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb63768aa3 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:587]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb6377f027 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:1478]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5ee3a402 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:558]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5ee3f6ca UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:1523]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5e5fd0bf UE4Editor-Engine.dll!UWorld::RunTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:783]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5e607957 UE4Editor-Engine.dll!UWorld::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:1558]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5c6baf57 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp:1693]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffb5cf937e6 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\UnrealEdEngine.cpp:414]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ff74c777800 UE4Editor.exe!FEngineLoop::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:4850]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ff74c78ba7c UE4Editor.exe!GuardedMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:169]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ff74c78bb5a UE4Editor.exe!GuardedMainWrapper() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:137]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ff74c79e31d UE4Editor.exe!WinMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:268]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ff74c7a145a UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\5\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.10.29-13.23.32:936][314]LogOutputDevice: Error: [Callstack] 0x00007ffbcfff7034 KERNEL32.DLL!UnknownFunction []
+[2020.10.29-13.23.32:937][314]LogOutputDevice: Error: [Callstack] 0x00007ffbd199cec1 ntdll.dll!UnknownFunction []
+[2020.10.29-13.23.32:937][314]LogOutputDevice: Error: 
