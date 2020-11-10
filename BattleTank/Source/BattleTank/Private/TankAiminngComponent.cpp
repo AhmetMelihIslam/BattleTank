@@ -24,7 +24,7 @@ bool UTankAiminngComponent::IsBarrelMoving()
 	return !BarrelForward.Equals(AimDirection, 0.01); // vectors are equal
 }
 
-int UTankAiminngComponent::GetRoundLeft() const
+int32 UTankAiminngComponent::GetRoundLeft() const
 {
 	return RoundsLeft;
 }
@@ -68,8 +68,8 @@ void UTankAiminngComponent::Initialise(UTankBarrel* BarrelToSet, UTankTurret* Tu
 
 void UTankAiminngComponent::AimAt(FVector HitLocation)
 {
-	if (!ensure(Barrel)) { return ; }
-	//if (!Barrel) { return ; }
+	//if (!ensure(Barrel)) { return ; }
+	if (!Barrel) { return ; }
 	
 	FVector OutLaunchVelocity;
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
@@ -119,8 +119,11 @@ void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirectionBarrelTowards)
 
 void UTankAiminngComponent::Fire()
 {
+	
 	if (FiringState == EFiringState::Locked || FiringState == EFiringState::Aiming)
+	//if (!(FiringState == EFiringState::Locked) && !(FiringState == EFiringState::Aiming) )//|| RoundsLeft <= 0)
 	{
+		if (RoundsLeft <= 0) { return; }
 		// Spawn a projectile at the socket location on the barrel
 		if (!ensure(Barrel)) { return; }
 		if (!ensure(ProjectileBlueprint)) { return; }
