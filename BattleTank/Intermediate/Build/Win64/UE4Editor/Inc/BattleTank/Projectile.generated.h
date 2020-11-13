@@ -8,14 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef BATTLETANK_Projectile_generated_h
 #error "Projectile.generated.h already included, missing '#pragma once' in Projectile.h"
 #endif
 #define BATTLETANK_Projectile_generated_h
 
 #define BattleTank_Source_BattleTank_Public_Projectile_h_14_SPARSE_DATA
-#define BattleTank_Source_BattleTank_Public_Projectile_h_14_RPC_WRAPPERS
-#define BattleTank_Source_BattleTank_Public_Projectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define BattleTank_Source_BattleTank_Public_Projectile_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define BattleTank_Source_BattleTank_Public_Projectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
 #define BattleTank_Source_BattleTank_Public_Projectile_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectile(); \
@@ -60,7 +72,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 
 #define BattleTank_Source_BattleTank_Public_Projectile_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CollisionMesh() { return STRUCT_OFFSET(AProjectile, CollisionMesh); } \
-	FORCEINLINE static uint32 __PPO__LaunchBlast() { return STRUCT_OFFSET(AProjectile, LaunchBlast); }
+	FORCEINLINE static uint32 __PPO__LaunchBlast() { return STRUCT_OFFSET(AProjectile, LaunchBlast); } \
+	FORCEINLINE static uint32 __PPO__ImpectBlast() { return STRUCT_OFFSET(AProjectile, ImpectBlast); }
 
 
 #define BattleTank_Source_BattleTank_Public_Projectile_h_11_PROLOG

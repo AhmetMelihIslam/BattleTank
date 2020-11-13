@@ -1,16 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TarmaDSho\Desktop\TANK04).
-  Parsing headers for BattleTankEditor
-    Running UnrealHeaderTool "C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\BattleTank.uproject" "C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TarmaDSho\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for BattleTankEditor in 26,8882497 seconds
-  Deleted hot-reload file: C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Binaries\Win64\UE4Editor-BattleTank-0001.dll
-  Deleted hot-reload file: C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Binaries\Win64\UE4Editor-BattleTank-0013.dll
-  Deleted hot-reload file: C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Binaries\Win64\UE4Editor-BattleTank-0030.dll
-  Deleted hot-reload file: C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-0001.lib
-  Deleted hot-reload file: C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-0013.lib
-  Deleted hot-reload file: C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-0030.lib
   Building BattleTankEditor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Distributing 10 actions to XGE
+  Distributing 4 actions to XGE
   --------------------Build System Warning---------------------------------------
   License is invalid:
       License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
@@ -18,17 +9,17 @@
   
   -------------------------------------------------------------------------------
   --------------------Project: Default-------------------------------------------
-  TankAiminngComponent.gen.cpp (0:01.76 at +0:00)
-  Projectile.gen.cpp (0:01.37 at +0:01)
-  TankPlayerController.cpp (0:01.17 at +0:03)
-  TankBarrel.cpp (0:00.92 at +0:04)
-  TankAiminngComponent.cpp (0:01.32 at +0:05)
-C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\TankAiminngComponent.cpp(97): error C4458: declaration of 'AimDirection' hides class member
-  C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Public\TankAiminngComponent.h(74): note: see declaration of 'UTankAiminngComponent::AimDirection'
+  Projectile.cpp (0:00.93 at +0:00)
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\Projectile.cpp(32): error C2065: 'OnComponentHit': undeclared identifier
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\Projectile.cpp(32): error C2653: 'UTankTrack': is not a class or namespace name
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\Projectile.cpp(32): error C2065: 'OnHit': undeclared identifier
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\Projectile.cpp(36): error C2039: 'OnHit': is not a member of 'AProjectile'
+  C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Public\Projectile.h(12): note: see declaration of 'AProjectile'
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\Projectile.cpp(38): error C3861: 'DriveTrack': identifier not found
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\Projectile.cpp(39): error C3861: 'ApplySidewaysForce': identifier not found
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Private\Projectile.cpp(40): error C2065: 'CurrentThrottle': undeclared identifier
   
   Error executing C:\Program Files\Epic Games\UE_4.25\Engine\Build\Windows\cl-filter\cl-filter.exe (tool returned code: 2)
-  TankAIController.cpp (0:01.93 at +0:06)
-  Projectile.cpp (0:01.00 at +0:08)
   ---------------------- Done ----------------------
   
       Rebuild All: 0 succeeded, 1 failed, 0 skipped
