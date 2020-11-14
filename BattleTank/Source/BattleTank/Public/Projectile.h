@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "PhysicsEngine/RadialForceComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -25,10 +26,14 @@ public:
 	
 	void LaunchProjectile(float speed);
 
-
 private:
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
+
+	void OnTimerExpire();
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float DestroyDelay = 10.f;
 
 	UProjectileMovementComponent* ProjectileMovement = nullptr;
 
@@ -40,4 +45,7 @@ private:
 
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UParticleSystemComponent* ImpectBlast = nullptr;
+
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	URadialForceComponent* ExplosionForce = nullptr;
 };
