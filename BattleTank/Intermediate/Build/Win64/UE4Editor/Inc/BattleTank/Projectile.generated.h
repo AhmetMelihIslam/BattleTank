@@ -72,6 +72,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 
 #define BattleTank_Source_BattleTank_Public_Projectile_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__DestroyDelay() { return STRUCT_OFFSET(AProjectile, DestroyDelay); } \
+	FORCEINLINE static uint32 __PPO__ProjectileDamage() { return STRUCT_OFFSET(AProjectile, ProjectileDamage); } \
 	FORCEINLINE static uint32 __PPO__CollisionMesh() { return STRUCT_OFFSET(AProjectile, CollisionMesh); } \
 	FORCEINLINE static uint32 __PPO__LaunchBlast() { return STRUCT_OFFSET(AProjectile, LaunchBlast); } \
 	FORCEINLINE static uint32 __PPO__ImpectBlast() { return STRUCT_OFFSET(AProjectile, ImpectBlast); } \
