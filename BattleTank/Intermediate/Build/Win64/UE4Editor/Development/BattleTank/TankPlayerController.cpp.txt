@@ -3,3 +3,5 @@ C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Public\TankAiminn
 C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\TankAiminngComponent.generated.h
 C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Public\TankPlayerController.h
 C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\TankPlayerController.generated.h
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Source\BattleTank\Public\Tank.h
+C:\Users\TarmaDSho\Desktop\TANK04\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\Tank.generated.h
