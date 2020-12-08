@@ -9,7 +9,6 @@ void ATankPlayerController::BeginPlay()
 	Super::BeginPlay();
 	auto AimingComponent = GetPawn()->FindComponentByClass<UTankAiminngComponent>();
 	if (!ensure(AimingComponent)) { return; }
-	//if (!(AimingComponent)) { return; }
 	FoundAimingComponent(AimingComponent);
 }
 
@@ -21,7 +20,7 @@ void ATankPlayerController::SetPawn(APawn* InPawn)
 		auto PossessedTank = Cast<ATank>(InPawn);
 		if (!ensure(PossessedTank)) { return; }
 
-		// TODO Subscribe our local method to the tank's death event
+		// Subscribe our local method to the tank's death event
 		PossessedTank->OnDeath.AddUniqueDynamic(this, &ATankPlayerController::OnPossedTankDeath);
 	}
 }
@@ -42,7 +41,6 @@ void ATankPlayerController::AimTowardsCrosshair()
 	if(!GetPawn() ) { return; } // e.g. if not possesing
 	auto AimingComponent = GetPawn()->FindComponentByClass<UTankAiminngComponent>();
 	if (!ensure(AimingComponent)) { return; }
-	//if (!AimingComponent) { return; }
 
 	FVector HitLocation; // Out parameter
 	bool bGotHitLocation = GetSightRayHitLocation(HitLocation);

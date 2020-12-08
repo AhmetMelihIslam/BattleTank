@@ -6,7 +6,7 @@
 UTankTrack::UTankTrack()
 {
 	PrimaryComponentTick.bCanEverTick = false;
-	SetNotifyRigidBodyCollision(true);
+	//SetNotifyRigidBodyCollision(true);
 }
 
 void UTankTrack::BeginPlay()

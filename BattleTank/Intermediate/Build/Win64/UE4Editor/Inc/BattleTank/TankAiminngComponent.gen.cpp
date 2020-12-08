@@ -295,9 +295,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAiminngComponent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTankAiminngComponent_Statics::NewProp_LaunchSpeed_MetaData[] = {
 		{ "Category", "Firing" },
-		{ "Comment", "//UClass* ProjectileBlueprint;\n" },
 		{ "ModuleRelativePath", "Public/TankAiminngComponent.h" },
-		{ "ToolTip", "UClass* ProjectileBlueprint;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTankAiminngComponent_Statics::NewProp_LaunchSpeed = { "LaunchSpeed", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTankAiminngComponent, LaunchSpeed), METADATA_PARAMS(Z_Construct_UClass_UTankAiminngComponent_Statics::NewProp_LaunchSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTankAiminngComponent_Statics::NewProp_LaunchSpeed_MetaData)) };
@@ -351,7 +349,7 @@ void EmptyLinkFunctionForGeneratedCodeTankAiminngComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankAiminngComponent, 1279070855);
+	IMPLEMENT_CLASS(UTankAiminngComponent, 2900106027);
 	template<> BATTLETANK_API UClass* StaticClass<UTankAiminngComponent>()
 	{
 		return UTankAiminngComponent::StaticClass();
