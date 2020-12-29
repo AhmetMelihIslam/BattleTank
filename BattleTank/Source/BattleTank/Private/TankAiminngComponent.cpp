@@ -115,8 +115,7 @@ void UTankAiminngComponent::MoveBarrelTowards(FVector AimDirectionBarrelTowards)
 }
 
 void UTankAiminngComponent::Fire()
-{
-	
+{	
 	if (FiringState == EFiringState::Locked || FiringState == EFiringState::Aiming)
 	{
 		// Spawn a projectile at the socket location on the barrel
